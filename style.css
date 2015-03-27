@@ -1,0 +1,126 @@
+
+h4 {
+    
+    text-align: center;   
+}
+
+body {
+    
+    background-image: url(img/zena.jpg);
+    background-size:cover;
+
+    
+}
+
+.barva {
+    background-color: rgba(33, 56, 56, 0.88); 
+    border: 2px solid rgba(20, 39, 39, 0.88);
+    border-radius: 5px;
+    
+}
+
+
+h2 {
+    
+    text-align: center;
+    font-family: cursive;
+    font-size: 25px;
+    color:cornflowerblue;
+}
+
+h1 {
+    
+    text-align: center;
+    font-family: cursive;
+    font-size: 25px;
+    color:cornflowerblue;
+    
+}
+
+
+.caption strong {
+    
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.caption li {
+    text-align: center;   
+}
+
+textarea {
+    resize: none;
+        
+}
+
+
+strong {
+    color: black;
+    font-family: cursive;
+    font-size: 15px;
+    text-align: center;
+}
+
+.table {
+    background-color:#3f6969;
+    overflow:hidden;
+    border-radius: 5px;
+    
+    
+}
+
+.table th {
+    
+    text-align: center;
+    color: black;
+}
+    
+.table td {
+    
+    text-align: center;
+    color: black;
+    font-family: cursive;
+    font-size: 16px;
+}
+    
+.checkbox {
+    
+    color: white;
+    font-family: cursive;
+    font-size: 16px;
+    
+}
+
+h3 {
+    
+    font-family: cursive;
+    font-size: 25px;
+    color:darkgoldenrod;
+}
+
+.vprasalnik {
+    
+    text-align: center;
+}
+
+.h3_noga {
+    color: black;
+
+}
+
+.noga_pisava p {
+    
+    font-family: cursive;
+    font-size: 15px;
+    color:darkgoldenrod;  
+}
+
+.noga_pisava p a {
+    
+    font-family: cursive;
+    font-size: 15px;
+    color:darkgoldenrod;  
+}
+
+
