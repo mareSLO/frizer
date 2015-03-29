@@ -1,382 +1,402 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Frizerski Studio Majda Lenček</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        
-    </head>
-    
-    <body>
-    
-        <div class="navbar navbar-inverse navbar-static-top">
+
+<head>
+    <title>Frizerski Studio Majda Lenček</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="navbar navbar-inverse navbar-static-top">
         <div class="container">
-           <div class="navbar-header">
-    
-            <a href="#" class="navbar-brand">Frizerski studio Majda Lenček</a>
-            <div class="logo_frizer"></div>
-            
-            <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            </div> 
-            
+            <div class="navbar-header">
+
+                <a href="#" class="navbar-brand">Frizerski studio Majda Lenček</a>
+                <div class="logo_frizer"></div>
+
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
             <div class="collapse navbar-collapse navHeaderCollapse">
-                
+
                 <ul class="nav navbar-nav navbar-right">
-                    
-                    <li id="Domov" class="active"><a href="#">Domov</a></li>
-                    <li><a href="#Storitve">Storitve</a></li>
-                    <li><a href="#Naroči_se">Naroči se</a></li>
-                    <li><a href="#FAQ">FAQ</a></li>
-                    <li><a href="#contact" data-toggle="modal">Kontakt</a></li>
-                
+
+                    <li id="Domov" class="active"><a href="#">Domov</a>
+                    </li>
+                    <li><a href="#Storitve">Storitve</a>
+                    </li>
+                    <li><a href="#Naroči_se">Naroči se</a>
+                    </li>
+                    <li><a href="#FAQ">FAQ</a>
+                    </li>
+                    <li><a href="#contact" data-toggle="modal">Kontakt</a>
+                    </li>
+
                 </ul>
-             
+
             </div>
-        
-        </div> 
-        
+
         </div>
-        
-        <div class="modal fade" id="contact" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <form class="form-horizontal">
-                        <div class="modal-header">
-                            <h4>Kontaktirajte frizerski salon</h4>
-                        </div>
-                        <div class="modal-body">
-                        
-                            <div class="form-group">
-                            
-                                <label for="contact-name" class="col-md-2 control-label">Ime:</label>
-                                <div class="col-md-10">
-                                    
-                                    <input type="text" class="form-control" id="contact-name" placeholder="Polno Ime">
-                                
-                                </div>
+
+    </div>
+
+    <div class="modal fade" id="contact" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form class="form-horizontal">
+                    <div class="modal-header">
+                        <h4>Kontaktirajte frizerski salon</h4>
+                    </div>
+                    <div class="modal-body">
+
+                        <div class="form-group">
+
+                            <label for="contact-name" class="col-md-2 control-label">Ime:</label>
+                            <div class="col-md-10">
+
+                                <input type="text" class="form-control" id="contact-name" placeholder="Polno Ime">
+
                             </div>
-                        
-                            <div class="form-group">
-                            
-                                <label for="contact-email" class="col-md-2 control-label">Email:</label>
-                                <div class="col-md-10">
-                                    
-                                    <input type="email" class="form-control" id="contact-email" placeholder="Tvoj Email">
-                                
-                                </div>
-                            </div>
-                            
-                            <div class="form-group">
-                            
-                                <label for="contact-msg" class="col-md-2 control-label">Sporočilo:</label>
-                                <div class="col-md-10">
-                                    
-                                    <textarea class="form-control" rows="8"></textarea>
-                                
-                                </div>
-                            </div>
-                            
                         </div>
-                        <div class="modal-footer">
-                            <a class="btn btn-default" data-dismiss="modal">Zapri</a>
-                            <button class="btn btn-primary" type="submit">Pošlji</button>
+
+                        <div class="form-group">
+
+                            <label for="contact-email" class="col-md-2 control-label">Email:</label>
+                            <div class="col-md-10">
+
+                                <input type="email" class="form-control" id="contact-email" placeholder="Vpišite email">
+
+                            </div>
                         </div>
-                    </form>
-                </div>
-            </div>  
-        
+
+                        <div class="form-group">
+
+                            <label for="contact-msg" class="col-md-2 control-label">Sporočilo:</label>
+                            <div class="col-md-10">
+                                <textarea class="form-control" rows="8" id="contact-msg"></textarea>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <a class="btn btn-default" data-dismiss="modal">Zapri</a>
+                        <button class="btn btn-primary" type="submit">Pošlji</button>
+                    </div>
+                </form>
+            </div>
         </div>
-        <br>
-        <div class="container trans">
-            
-        
+
+    </div>
+    <br>
+    <div class="container trans">
+
+
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            
+
             <div class="carousel-inner" role="listbox">
-                
+
                 <div class="item active">
-                
+
                     <img src="http://kghairdesign.com/wp-content/uploads/2014/11/banner3.jpg" alt="moska glava" class="img-responsive">
-                        <div class="carousel-caption">
-                            <h3>Moška frizura</h3> 
-                        </div>
-                
+                    <div class="carousel-caption">
+                        <h3>Moška frizura</h3>
+                    </div>
+
                 </div>
-                    
+
                 <div class="item">
-                
+
                     <img src="http://www.theloungesoho.co.uk/images/59_Haircut_Salon_The_Lounge_Soho_Hairdresser_London1600x600.jpg" alt="frizerski studio" class="img-responsive">
-                        <div class="carousel-caption">
-                            <h3>Salon</h3>   
-                        </div>
-                
+                    <div class="carousel-caption">
+                        <h3>Salon</h3>
+                    </div>
+
                 </div>
-                    
+
                 <div class="item">
-                
+
                     <img src="http://www.hyattssalon.com.au/upl/website/home/Banner40.jpg" alt="zenska glava" class="img-responsive">
-                        <div class="carousel-caption">
-                            <h3>Ženska frizura</h3> 
-                        </div>  
-                </div>
-                
-            </div>
-                
-                <a  class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-            
-                <a  class="right carousel-control " href="#myCarousel" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            
-            
-        </div> 
-        </div>
-        <br>
-        <div class="container barva">
-            <h2 id="Storitve">Storitve</h2>
-        <div class="row">
-            
-            <div class="col-md-4">
-            <div class="thumbnail">
-                <img src="https://philipkingsley.files.wordpress.com/2011/08/layer_cut.jpg" alt="Striženje">
-            <div class="caption">
-                <h4>Striženje</h4>
-                    <ul>
-                        <li>Žensko striženje: <strong>10 €</strong></li>
-                        <li>Moško striženje: <strong>9 €</strong></li>
-                        <li>Moško striženje: z mašinco <strong>5 €</strong></li>
-                        <li>Otroško striženje: <strong>7 €</strong></li>
-                    </ul>
-            </div>
-            </div>
-            </div>
-            
-            <div class="col-md-4">
-            <div class="thumbnail">
-                <img src="http://www.dietandfashion.com/wp-content/uploads/2015/02/r3e.jpg" alt="Barvanje">
-            <div class="caption">
-                <h4>Barvanje</h4>
-                    <ul>
-                        <li>Barvanje las (dolgi las): <strong>25 €</strong></li>
-                        <li>Barvanje las (srednje dolgi): <strong>20 €</strong></li>
-                        <li>Barvanje las (kratek): <strong>18 €</strong></li>
-                        <li>Barvanje las (polovica glave): <strong>14 €</strong></li> 
-                    </ul>
-            </div>
-            </div>
-            </div>
-            
-            
-            <div class="col-md-4">
-            <div class="thumbnail">
-                <img src="http://stylesatlife.com/wp-content/uploads/2014/03/hair-wash.jpg" alt="Umivanje">
-            <div class="caption">
-                <h4>Umivanje</h4>
-                    <ul>
-                        <li>Nega las: <strong>13 €</strong></li>
-                        <li>Pranje glave s peno: <strong>3,5 €</strong></li>
-                        <li>Pranje glave + ampula: <strong>4 €</strong></li>
-                        <li>Pranje glave: <strong>1,25 €</strong></li>
-                    </ul>
-            </div>
-            </div>
-            </div>
-            
-            
-           </div> 
-            
-         </div>
-        <br>
-        <div class="container barva">
-            
-             <h2 id="Naroči_se">Naroči se</h2>
-    <div class="row">
-            <div class="col-md-6">
-    
-            <form class="form-horizontal" role="form">
-                <div class="form-group">
-                    
-                        <input type="text" class="form-control" id="Ime" placeholder="Vpiši Ime in Priimek">
-                </div>
-                
-                <div class="form-group">
-                        <input type="tel" class="form-control" id="Številka" placeholder="Vpiši telefonsko številko">
-                </div>
-                
-                <div class="form-group"> 
-                        <input type="date" class="form-control" id="datum">
-                </div>
-               
-                
-                <div class="form-group">
-                        <textarea class="form-control" rows="6" id="komentar" placeholder="Če imaš posebne želje glede pričeske"></textarea>
-                </div>
-                
-                <div class="form-group"> 
-                    <div class="checkbox">
-                        <label><input type="checkbox">Strinjam se da je Majda Top frizerka</label>
+                    <div class="carousel-caption">
+                        <h3>Ženska frizura</h3>
                     </div>
                 </div>
-                
-                
-                <div class="form-group"> 
-                    <button type="submit" class="btn btn-default">Potrdi</button>
+
+            </div>
+
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+
+            <a class="right carousel-control " href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+
+        </div>
+    </div>
+    <br>
+    <div class="container barva">
+        <h2 id="Storitve">Storitve</h2>
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="https://philipkingsley.files.wordpress.com/2011/08/layer_cut.jpg" alt="Striženje">
+                    <div class="caption">
+                        <h4>Striženje</h4>
+                        <ul>
+                            <li>Žensko striženje: <strong>10 €</strong>
+                            </li>
+                            <li>Moško striženje: <strong>9 €</strong>
+                            </li>
+                            <li>Moško striženje: z mašinco <strong>5 €</strong>
+                            </li>
+                            <li>Otroško striženje: <strong>7 €</strong>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </form>
             </div>
-            
-            
-                
+
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="http://www.dietandfashion.com/wp-content/uploads/2015/02/r3e.jpg" alt="Barvanje">
+                    <div class="caption">
+                        <h4>Barvanje</h4>
+                        <ul>
+                            <li>Barvanje las (dolgi las): <strong>25 €</strong>
+                            </li>
+                            <li>Barvanje las (srednje dolgi): <strong>20 €</strong>
+                            </li>
+                            <li>Barvanje las (kratek): <strong>18 €</strong>
+                            </li>
+                            <li>Barvanje las (polovica glave): <strong>14 €</strong>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="http://stylesatlife.com/wp-content/uploads/2014/03/hair-wash.jpg" alt="Umivanje">
+                    <div class="caption">
+                        <h4>Umivanje</h4>
+                        <ul>
+                            <li>Nega las: <strong>13 €</strong>
+                            </li>
+                            <li>Pranje glave s peno: <strong>3,5 €</strong>
+                            </li>
+                            <li>Pranje glave + ampula: <strong>4 €</strong>
+                            </li>
+                            <li>Pranje glave: <strong>1,25 €</strong>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    <br>
+    <div class="container barva">
+
+        <h2 id="Naroči_se">Naroči se</h2>
+        <div class="row">
+            <div class="col-md-6">
+
+                <form class="form-horizontal" role="form">
+
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="Ime" placeholder="Vpiši Ime in Priimek">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="tel" class="form-control" id="Številka" placeholder="Vpiši telefonsko številko">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="date" class="form-control" id="datum">
+                    </div>
+
+                    <div class="form-group">
+                        <textarea class="form-control" rows="6" id="komentar" placeholder="Če imaš posebne želje glede pričeske"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox">Strinjam se da je Majda Top frizerka</label>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-default">Potrdi</button>
+                    </div>
+                </form>
+            </div>
+
+
+
             <div class="col-md-6 col">
-            <div class="table-responsive">
-            <table class="table table-bordered table-striped">
-                <thead>
-                    <tr>
-                        <th>Dan</th>
-                        <th>Delavni čas</th>
-                    </tr>
-                
-                </thead>
-                
-                <tbody>
-                    
-                    <tr>
-                        <td>Ponedeljek</td>
-                        <td>8:00 - 16:00</td>
-                    </tr>
-                    <tr>
-                        <td>Torek</td>
-                        <td>8:00 - 16:00</td>
-                    </tr>
-                    <tr>
-                        <td>Sreda</td>
-                        <td>8:00 - 16:00</td>
-                    </tr>
-                    <tr>
-                        <td>Četrtek</td>
-                        <td>16:00 - 20:00</td>
-                    </tr>
-                    <tr>
-                        <td>Petek</td>
-                        <td>16:00 - 20:00</td>
-                    </tr>
-                    <tr>
-                        <td>Vikend</td>
-                        <td>Čas za počitek</td>
-                    </tr>
-                    
-                </tbody>
-    
-            </table>
-            </div>
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th>Dan</th>
+                                <th>Delavni čas</th>
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+                                <td>Ponedeljek</td>
+                                <td>8:00 - 16:00</td>
+                            </tr>
+                            <tr>
+                                <td>Torek</td>
+                                <td>8:00 - 16:00</td>
+                            </tr>
+                            <tr>
+                                <td>Sreda</td>
+                                <td>8:00 - 16:00</td>
+                            </tr>
+                            <tr>
+                                <td>Četrtek</td>
+                                <td>16:00 - 20:00</td>
+                            </tr>
+                            <tr>
+                                <td>Petek</td>
+                                <td>16:00 - 20:00</td>
+                            </tr>
+                            <tr>
+                                <td>Vikend</td>
+                                <td>Čas za počitek</td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+                </div>
             </div>
         </div>
     </div>
-        <br>
-        <div class="container barva">
-            
-            <h1 id="FAQ">FAQ</h1>
-            
-            <div class="row">
-                   
-                    <div class="col-md-12 vprasalnik">
-            <div class="panel-group" id="accordion">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
+    <br>
+    <div class="container barva">
+
+        <h1 id="FAQ">FAQ</h1>
+
+        <div class="row">
+
+            <div class="col-md-12 vprasalnik">
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Zakaj izbrati ravno nas?<i class="glyphicon glyphicon-plus-sign pull-right"></i></a>
                         </h4>
-                    </div>
-                    
-                    <div id="collapseOne" class="panel-collapse collapse">
-                        <div class="panel-body">
-                            Ker smo enostavno najboljši in tako nudimo seveda več od konkurence.
+                        </div>
+
+                        <div id="collapseOne" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Ker smo enostavno najboljši in tako nudimo seveda več od konkurence.
+                            </div>
                         </div>
                     </div>
-                </div>
-                
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Kaj nudimo česar drugi ne?<i class="glyphicon glyphicon-plus-sign pull-right"></i></a>
                         </h4>
-                    </div>
-                    
-                    <div id="collapseTwo" class="panel-collapse collapse">
-                        <div class="panel-body">
-                            Glede na to da smo najboljši, odgovor niti ni potreben.
+                        </div>
+
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Glede na to da smo najboljši, odgovor niti ni potreben.
+                            </div>
                         </div>
                     </div>
-                </div>
-                
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Zakaj vam večina frizerskih salonov računa tako veliko za storitve?<i class="indicator glyphicon glyphicon-plus-sign pull-right"></i></a>
                         </h4>
-                    </div>
-                    
-                    <div id="collapseThree" class="panel-collapse collapse">
-                        <div class="panel-body">
-                            Zato ker so uradni, mi pa delamo na črno, tako da se lahko ostrižete za majhne denarce.
+                        </div>
+
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Zato ker so uradni, mi pa delamo na črno, tako da se lahko ostrižete za majhne denarce.
+                            </div>
                         </div>
                     </div>
+                    <hr>
+                    <div class="faq-bottom-text">
+
+                        <h1>Te zanimajo dodatne informacije?</h1>
+                        <h3>Kontaktiraj nas preko <a href="#contact" data-toggle="modal">kontaktnega obrazca</a>, ki se nahaja zgoraj v glavi</h3>
+                        <br>
+                    </div>
                 </div>
-            <hr>
-        <div class="faq-bottom-text">
-       
-            <h1>Te zanimajo dodatne informacije?</h1>
-                <h3>Kontaktiraj nas preko <a href="#contact" data-toggle="modal">kontaktnega obrazca</a>, ki se nahaja zgoraj v glavi</h3>  
-            <br>
+
+            </div>
+
         </div>
-        </div>
-            
-                </div> 
-                
-        </div>     
     </div>
-     <br>
+    <br>
     <div class="container barva">
-        <div class="row">  
+        <div class="row">
             <div class="col-md-2 noga_pisava text-center">
-            
+
                 <h3 class="h3_noga">Kontakt</h3>
                 <p>Majda Lenček s.p.</p>
                 <p>Davčna številka: SI 98113089</p>
                 <p>Mavsarjeva cesta 5, 1357 Notranje Gorice</p>
                 <p>Številka: 01 3652106</p>
-            
+
             </div>
-            
+
             <div class="col-md-2 noga_pisava col-md-offset-8 text-center">
-    
+
                 <h3 class="h3_noga">Navigacija</h3>
-                <p><a href="#Domov">Domov</a></p>
-                <p><a href="#Storitve">Storitve</a></p>
-                <p><a href="#Naroči_se">Naroči se</a></p>
-                <p><a href="#FAQ">FAQ</a></p>
-                <p><a href="#contact" data-toggle="modal">Kontakt</a></p>
-                
+                <p><a href="#Domov">Domov</a>
+                </p>
+                <p><a href="#Storitve">Storitve</a>
+                </p>
+                <p><a href="#Naroči_se">Naroči se</a>
+                </p>
+                <p><a href="#FAQ">FAQ</a>
+                </p>
+                <p><a href="#contact" data-toggle="modal">Kontakt</a>
+                </p>
+
             </div>
-        
-        
-        
-        </div>   
+
+
+
+        </div>
     </div>
-    
-    </body>
-    
+
+</body>
+
 </html>
-        
-        
