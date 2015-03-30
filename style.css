@@ -125,3 +125,12 @@ h3 {
     padding-left: 15px;
     padding-right: 15px;
 }
+
+.carousel .carousel-control {
+    visibility: hidden;
+}
+
+.carousel:hover .carousel-control {
+ visibility: visible;
+}
+
